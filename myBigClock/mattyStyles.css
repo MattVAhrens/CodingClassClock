@@ -1,0 +1,191 @@
+:root {
+    --column-spacing: 10% + 3.33333333333333%;
+    --row-spacing: 10% + 10%;
+  }
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color:aqua;
+}
+
+/* .bigClockContainer {
+    width: 100vmin;
+    height: 100vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .shadedContainer {
+    background-color: aqua;
+    width: 100vw;
+} */
+
+.letter {
+    position:absolute;
+    color:rgba(0,0,0,0.3);
+    font-weight:bold;
+    font-size:30px;
+    text-shadow:0 0 0.5vmin rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 600px) {
+    .letter {
+      visibility: hidden;
+    }
+
+    .letter_on {
+      visibility: visible;
+      font-size:42px;
+    }
+  }
+
+.letter_on {
+    color:rgba(255,255,255,1) !important;
+}
+
+.column1,.column2,.column3,.column4,.column5,.column6,.column6,.column7,.column8,.column9,.column10,.column11,.column12,.column13,.column14,.column15,.column16,.column17,.column18,.column19,.column20,.column21,.column22,.column23,.column24,.column25 {
+    transform:translate(-50%,-50%);
+}
+
+.column1 {
+    left:10%;
+}
+
+.column2 {
+    left:calc(var(--column-spacing));
+}
+
+.column3 {
+    left:calc(var(--column-spacing) * 2);
+}
+
+.column4 {
+    left:calc(var(--column-spacing) * 3);
+}
+
+.column5 {
+    left:calc(var(--column-spacing) * 4);
+}
+
+.column6 {
+    left:calc(var(--column-spacing) * 5);
+}
+
+.column7 {
+    left:calc(var(--column-spacing) * 6);
+}
+
+.column8 {
+    left:calc(var(--column-spacing) * 7);
+}
+
+.column9 {
+    left:calc(var(--column-spacing) * 8);
+}
+
+.column10 {
+    left:calc(var(--column-spacing) * 9);
+}
+
+.column11 {
+    left:calc(var(--column-spacing) * 10);
+}
+
+.column12 {
+    left:calc(var(--column-spacing) * 11);
+}
+
+.column13 {
+    left:calc(var(--column-spacing) * 12);
+}
+
+.column14 {
+    left:calc(var(--column-spacing) * 13);
+}
+
+.column15 {
+    left:calc(var(--column-spacing) * 14);
+}
+
+.column16 {
+    left:calc(var(--column-spacing) * 15);
+}
+
+.column17 {
+    left:calc(var(--column-spacing) * 16);
+}
+
+.column18 {
+    left:calc(var(--column-spacing) * 17);
+}
+
+.column19 {
+    left:calc(var(--column-spacing) * 18);
+}
+
+.column20 {
+    left:calc(var(--column-spacing) * 19);
+}
+
+.column21 {
+    left:calc(var(--column-spacing) * 20);
+}
+
+.column22 {
+    left:calc(var(--column-spacing) * 21);
+}
+
+.column23 {
+    left:calc(var(--column-spacing) * 22);
+}
+
+.column24 {
+    left:calc(var(--column-spacing) * 23);
+}
+
+.column25 {
+    left:calc(var(--column-spacing) * 24);
+}
+
+.row1 {
+    top:10%;
+}
+
+.row2 {
+    top:calc(var(--row-spacing) * 1);
+}
+
+.row3 {
+    top:calc(var(--row-spacing) * 2);
+}
+
+.row4 {
+    top:calc(var(--row-spacing) * 3);
+}
+
+.row5 {
+    top:calc(var(--row-spacing) * 4);
+}
+
+.row6 {
+    top:calc(var(--row-spacing) * 5);
+}
+
+.row7 {
+    top:calc(var(--row-spacing) * 6);
+}
+
+.row8 {
+    top:calc(var(--row-spacing) * 7);
+}
+
+.row9 {
+    top:calc(var(--row-spacing) * 8);
+}
